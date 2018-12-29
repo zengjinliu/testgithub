@@ -13,6 +13,16 @@ public class Dog implements Serializable {
 	private static final long serialVersionUID = 2536570914214785960L;
 	private String name;
 
+	public Integer getAge() {
+		return age;
+	}
+
+	public void setAge(Integer age) {
+		this.age = age;
+	}
+
+	private Integer age;
+
 	public String getName() {
 		return name;
 	}
